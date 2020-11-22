@@ -1,0 +1,275 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Roboto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    margin: 10px auto;
+}
+
+header {
+    /*width: 100%;*/
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+
+/*.header-content{*/
+/*    width: 100%;*/
+/*    display: flex;*/
+/*}*/
+.header-nav {
+    margin: 10px auto;
+}
+
+.header-nav-ul li {
+    display: inline;
+    margin-left: 5px;
+}
+.header-nav-ul li .icon {
+    display: none;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.logo-pic {
+
+    width: 120px;
+    height: 120px;
+}
+
+@media (min-width: 680px) {
+    header{
+        flex-direction: row;
+    }
+    .header-nav{
+        order: 2;
+        margin: auto 0;
+    }
+    .logo{
+        order: 1;
+        margin:0 20px 0 0;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .header-nav-ul li .icon {
+        display: inline-block;
+    }
+    .header-nav-ul li a {
+        /*display: block;*/
+        /*width: 100%;*/
+        /*display: flex;*/
+        color: black;
+        text-decoration: none;
+    }
+    .icon {
+        margin: 0 20px 0 0;
+    }
+
+    .title {
+        margin-top: 5px;
+    }
+}
+
+.heading-section {
+    width: 100%;
+    height: 200px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.heading-title {
+    width: 100%;
+    height: 20%;
+    padding: 10px 0 0 10px;
+}
+
+.heading-wrapper {
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+.heading-content{
+    margin: auto;
+}
+.subscribe-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.sign-text {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.email-input {
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    border: 3px solid black;
+    margin-right: 10px;
+}
+
+.subscribe-btn {
+    width: 120px;
+    font-size: 16px;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+
+@media (min-width: 680px) {
+    .subscribe-section{
+        /*flex-direction: row;*/
+        align-items: flex-end;
+
+
+    }
+}
+
+.articles-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
+
+}
+.article {
+    border: 3px solid black;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.article-title{
+    padding: 20px 50px 20px 20px;
+}
+.article-text{
+    padding: 0 20px 20px 20px;
+    font-size: 20px;
+}
+
+@media (min-width: 680px) {
+    .articles-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .article{
+        width: 49%;
+    }
+}
+
+@media (min-width: 992px) {
+    .articles-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .article{
+        width: 31%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    border-top: 3px solid black;
+}
+.footer-content{
+    width: 94%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+
+.footer-links {
+    display: flex;
+}
+
+.footer-nav li {
+    font-size: 20px;
+    list-style-type: none;
+    margin-right: 5px;
+}
+
+.footer-nav-link::after {
+    margin-left: 5px;
+    margin-bottom: -4px;
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 16px;
+    background: black;
+}
+
+/*.footer-nav-link:last-child::after{*/
+/*   display: none;*/
+/*}*/
+
+.footer-icons {
+
+    width: 100%;
+
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-icon {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+@media (min-width: 680px) {
+    .footer-content{
+        flex-direction: row;
+    }
+}
