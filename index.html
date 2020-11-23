@@ -10,7 +10,6 @@
 <body>
 <div class="container">
     <header>
-        <!--        <div class="header-content">-->
         <nav class="header-nav">
             <ul class="header-nav-ul">
                 <li class="home">
@@ -42,9 +41,8 @@
         <div class="logo">
             <img class="logo-pic" src="images/favicon.png" alt="logo">
         </div>
-        <!--        </div>-->
     </header>
-    <div class="main-content">
+<!--    <div class="main-content">-->
         <main>
             <section class="heading-section">
                 <h1 class="heading-title">Heading</h1>
@@ -53,10 +51,11 @@
                 </div>
             </section>
             <section class="subscribe-section">
-<!--                <span class="sign-text">Sign up for our newsletter:</span>-->
                 <form class="subscribe-form">
                     <span class="sign-text">Sign up for our newsletter:</span>
-                    <input class="email-input" type="text" placeholder="Email Address">
+                    <label>
+                        <input class="email-input" type="text" placeholder="Email Address">
+                    </label>
                     <button class="subscribe-btn">Subscribe</button>
                 </form>
             </section>
@@ -87,35 +86,38 @@
                 </article>
             </section>
         </main>
-    </div>
+<!--    </div>-->
 </div>
 <footer>
     <div class="footer-content">
         <nav class="footer-nav">
-            <div class="footer-links-wrapper">
-                <!--            Убрать этот враппер и переписать стили для друго нава с классами -->
-                <div class="footer-links">
-                    <li>
-                        <a href="#" class="footer-nav-link">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-nav-link">Terms of use</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer-nav-link">Contact</a>
-                    </li>
-                </div>
-                <div>
-                    <span>© 2015 My Company, all rights reserved.</span>
-                </div>
-            </div>
+
+            <ul class="footer-links">
+                <li>
+                    <a href="#" class="footer-nav-link">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-nav-link">Terms of use</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-nav-link">Contact</a>
+                </li>
+            </ul>
+
+                <span>© 2015 My Company, all rights reserved.</span>
 
         </nav>
-        <div class="footer-icons"><!--        <--------------------------------либо это nav-->
-            <button class="footer-icon"><img src="images/facebook.png" alt="facebook"></button>
-            <button class="footer-icon"><img src="images/google-symbol.png" alt="google"></button>
-            <button class="footer-icon"><img src="images/twitter.png" alt="twitter"></button>
-        </div>
+        <nav class="social-media-nav">
+            <a href="#">
+                <span class="footer-icon"><img src="images/facebook.png" alt="facebook"></span>
+            </a>
+            <a href="#">
+                <span class="icon"><img src="images/google-symbol.png" alt="google"></span>
+            </a>
+            <a href="#">
+                <span class="icon"><img src="images/twitter.png" alt="twitter"></span>
+            </a>
+        </nav>
     </div>
 </footer>
 </body>
