@@ -22,7 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stage1HTML-CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -38,7 +38,8 @@
       <workItem from="1606055155729" duration="14917000" />
       <workItem from="1606077857947" duration="168000" />
       <workItem from="1606087280274" duration="650000" />
-      <workItem from="1606121014894" duration="15699000" />
+      <workItem from="1606121014894" duration="16183000" />
+      <workItem from="1606159631096" duration="2090000" />
     </task>
     <servers />
   </component>

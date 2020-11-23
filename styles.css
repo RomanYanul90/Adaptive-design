@@ -17,8 +17,8 @@ body, html {
 .container {
     display: flex;
     flex-direction: column;
-    width: 94%;
-    margin: 10px auto;
+    width: 90%;
+    margin: 20px auto;
 }
 
 header {
@@ -86,7 +86,6 @@ header {
 .sign-text {
     display: inline-block;
     font-size: 20px;
-    margin-right: 10px;
     margin-bottom: 10px;
 }
 
@@ -181,6 +180,12 @@ footer {
     margin-left: 20px;
 }
 
+@media (min-width: 371px) {
+    .subscribe-btn{
+        margin-top: 0;
+    }
+
+}
 @media (min-width: 640px) {
     header {
         flex-direction: row;
@@ -197,7 +202,13 @@ footer {
     }
 
     .subscribe-section {
-        align-items: flex-end;
+
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+    .sign-text{
+        margin-right: 10px;
     }
 
     .articles-section {
@@ -217,6 +228,9 @@ footer {
 }
 
 @media (min-width: 992px) {
+    .container{
+        width: 94%;
+    }
     .header-nav {
         margin: auto;
     }
