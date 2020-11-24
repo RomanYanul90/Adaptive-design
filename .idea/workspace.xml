@@ -61,7 +61,8 @@
       <workItem from="1606166935500" duration="794000" />
       <workItem from="1606169307446" duration="344000" />
       <workItem from="1606173437545" duration="106000" />
-      <workItem from="1606214322529" duration="4977000" />
+      <workItem from="1606214322529" duration="5015000" />
+      <workItem from="1606225184957" duration="22746000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1606162029414</created>
@@ -77,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606166431660</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minor changes">
+      <created>1606223236278</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606223236278</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +120,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1606216183329" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1606248998868">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606248998868" />
   </component>
 </project>
