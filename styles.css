@@ -18,8 +18,10 @@ body, html {
     --large-font-size: 1.5em; /*24*/
     /*    paddings and margins*/
     --smal: 0.625em; /*10px*/
-    --medium: 1.25em; /*20*/
-    --large: 1.875em; /*30*/
+    --medium: 1.25em; /*20px*/
+    --large: 1.875em; /*30px*/
+    /*border*/
+    --border:0.1875em solid black;
 }
 
 .a {
@@ -55,7 +57,7 @@ header {
 .logo {
     width: 120px;
     height: 120px;
-    border: 3px solid black;
+    border: var(--border);
     border-radius: 50%;
     margin: 0 auto;
 }
@@ -149,7 +151,7 @@ footer {
 }
 
 .footer-content {
-    width: 94%;
+    width: 100%;
     margin: 10px auto;
     display: flex;
     flex-direction: column;
@@ -173,7 +175,7 @@ footer {
     margin-right: 5px;
 }
 
-.footer-nav-link::after {
+li:after {
     margin-left: 5px;
     margin-bottom: -4px;
     content: '';
@@ -181,6 +183,10 @@ footer {
     width: 2px;
     height: 16px;
     background: black;
+}
+
+li:nth-last-child(1):after {
+    display: none;
 }
 
 .social-media-nav {
@@ -197,10 +203,9 @@ footer {
     .subscribe-btn {
         margin-top: 0;
     }
-
 }
 
-@media (min-width: 640px) {
+@media (min-width: 680px) {
     header {
         flex-direction: row;
     }
@@ -216,10 +221,8 @@ footer {
     }
 
     .subscribe-section {
-
         flex-direction: row;
         justify-content: flex-end;
-
     }
 
     .sign-text {
@@ -250,6 +253,10 @@ footer {
 
     .header-nav {
         margin: auto;
+    }
+
+    .header-nav-ul li::after {
+        display: none;
     }
 
     .header-nav-ul li .icon {
