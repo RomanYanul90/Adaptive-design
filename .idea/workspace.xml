@@ -40,7 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Stage1HTML-CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -62,7 +62,9 @@
       <workItem from="1606169307446" duration="344000" />
       <workItem from="1606173437545" duration="106000" />
       <workItem from="1606214322529" duration="5015000" />
-      <workItem from="1606225184957" duration="25210000" />
+      <workItem from="1606225184957" duration="25646000" />
+      <workItem from="1606260510868" duration="274000" />
+      <workItem from="1606311333796" duration="11914000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1606162029414</created>
@@ -108,10 +110,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606138001746">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606321585406">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606138001746" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606321585406" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606162034832">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
