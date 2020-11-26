@@ -34,12 +34,12 @@ header {
     margin: 0.625em 0;
 }
 
-.header-navigation ul li {
+.header-navigation li {
     display: inline;
     margin-left: 0.3125em;
 }
 
-.header-navigation ul li .header-navigation__icon {
+.header-navigation .header-navigation__icon {
     display: none;
 }
 
@@ -56,7 +56,7 @@ header {
     max-height: 7.5em;
 }
 
-main{
+main {
     width: 100%;
 }
 
@@ -176,7 +176,7 @@ footer {
     display: flex;
 }
 
-.footer-navigation ul li {
+.footer-navigation li {
     margin-right: 0.3125em;
 
     font-size: 1em;
@@ -199,7 +199,7 @@ li:last-child:after {
     display: none;
 }
 
-.social-networks-navigation{
+.social-networks-navigation {
     display: flex;
     justify-content: flex-end;
 }
@@ -277,9 +277,8 @@ li:last-child:after {
     }
 }
 
-@media (min-width: 992px) {/*<--------------------------993*/
-
-
+@media (min-width: 992px) {
+    /*<--------------------------993*/
     .header-navigation {
         width: 100%;
     }
@@ -291,17 +290,17 @@ li:last-child:after {
         width: 100%;
     }
 
-    .header-navigation ul li::after {
+    .header-navigation li::after {
         display: none;
     }
 
-    .header-navigation ul li .header-navigation__icon {
+    .header-navigation .header-navigation__icon {
         display: inline-block;
     }
 
-        .header-navigation ul li a {
+    .header-navigation a {
         display: flex;
-        padding: 0.9375em 1.875em ;
+        padding: 0.9375em 1.875em;
 
         color: #454547;
 
@@ -310,7 +309,7 @@ li:last-child:after {
         text-decoration: none;
     }
 
-    .header-navigation ul li a .header-navigation__title {
+    .header-navigation .header-navigation__title {
         margin: 0 1.875em 0 1.875em;
         display: flex;
         align-items: center;
@@ -342,7 +341,7 @@ li:last-child:after {
         margin: 1.25em;
     }
 
-    .main-header{
+    .main-header {
         align-items: center;
         flex-direction: column;
         margin-right: 1.875em;
@@ -368,9 +367,10 @@ li:last-child:after {
 
     .header-navigation ul {
         flex-direction: column;
+        padding-top: 1.875em;
     }
 
-    .header-navigation ul li {
+    .header-navigation li {
         margin: 0
     }
 
