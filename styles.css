@@ -151,7 +151,7 @@ main{
 
 footer {
     min-width: 360px;
-    border-top: 0.1875em solid black;
+    /*border-top: 0.1875em solid black;*/
 }
 
 .footer-container {
@@ -160,7 +160,7 @@ footer {
     min-width: 320px;
     max-width: 1440px;
     padding-top: 0.625em;
-    /*border-top: 0.1875em solid black;*/
+    border-top: 0.1875em solid black;
     margin: 0.75em 1.25em;
 }
 
@@ -219,7 +219,7 @@ li:last-child:after {
 }
 
 @media (min-width: 680px) {
-    header {
+    .main-header {
         flex-direction: row;
     }
 
@@ -342,7 +342,7 @@ li:last-child:after {
         margin: 1.25em;
     }
 
-    header {
+    .main-header{
         align-items: center;
         flex-direction: column;
         margin-right: 1.875em;
