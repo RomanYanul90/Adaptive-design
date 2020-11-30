@@ -18,7 +18,7 @@ body, html {
 .container {
     display: flex;
     flex-direction: column;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1440px;
     margin: 1.25em;
 }
@@ -47,8 +47,6 @@ body, html {
     max-height: 7.5em;
     border: 0.1875em solid black;
     border-radius: 50%;
-    /*margin: 0 auto;!*  <-----------------------------  убрать *!*/
-
 }
 
 .logo__picture {
@@ -63,45 +61,34 @@ main {
 .heading-section {
     position: relative;
 
-    width: 100%;
     min-height: 12.5em;
     border: 0.1875em solid black;
     margin-bottom: 1.25em;
 }
 
 .heading-section__title {
-    position: absolute;
-
     padding: 0.5em 0 0 0.5em;
 
     font-size: 1.25em;
 }
 
 .heading-section__content {
-    /*margin: 0;*/
-    /*background: yellow;*/
     position: absolute;
     top: 50%;
     left: 50%;
-    /*margin-right: -50%;*/
-    transform: translate(-50%, -50%);
 
-    font-size: 1em;
+    transform: translate(-50%, -50%);
 
 }
 
 .subscribe-section {
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin-bottom: 1.25em;
 }
 
 .subscribe-section__label {
-    display: inline-block;
     margin-bottom: 0.625em;
-
-    /*font-size: 1.25em;*/
 }
 
 .email-input {
@@ -133,13 +120,14 @@ main {
 .articles-section {
     display: flex;
     flex-direction: column;
-    /*width: 100%;*/
+
 }
 
 .article {
     border: 0.1875em solid black;
     margin-bottom: 1.25em;
 }
+
 
 .article-title {
     padding: 0.5em;
@@ -150,18 +138,12 @@ main {
 .article-text {
     padding: 0 0.625em 0.625em;
 
-    /*font-size: 1em;*/
-}
-
-.main-footer {
-    min-width: 360px;
-    /*border-top: 0.1875em solid black;*/
 }
 
 .footer-container {
     display: flex;
     flex-direction: column;
-    min-width: 320px;
+    min-width: 300px;
     max-width: 1440px;
     padding-top: 0.625em;
     border-top: 0.1875em solid black;
@@ -170,9 +152,6 @@ main {
 
 
 .footer-navigation {
-    display: flex;
-    flex-direction: column;
-    /*width: 100%;*/
     margin-bottom: 1em;
 }
 
@@ -182,8 +161,6 @@ main {
 
 .footer-navigation li {
     margin-right: 0.3125em;
-
-    /*font-size: 1em;*/
 
     list-style-type: none;
 }
@@ -229,13 +206,15 @@ li:last-child:after {
 
     .header-navigation {
         order: 2;
-        display: flex;
-        align-items: center;
     }
 
     .logo {
         order: 1;
         margin: 0 1.25em 0 0;
+    }
+
+    .heading-section {
+        min-height: 18.75em;
     }
 
     .heading-section__title {
@@ -244,7 +223,7 @@ li:last-child:after {
         font-size: 1.5em;
     }
 
-    .heading-section__content{
+    .heading-section__content {
         font-size: 1.25em;
     }
 
@@ -261,7 +240,6 @@ li:last-child:after {
     }
 
     .articles-section {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -272,8 +250,7 @@ li:last-child:after {
     }
 
     .article-title {
-        /*padding: 1.25em;*/
-        padding: 0.8333333333333334em ;
+        padding: 0.8333333333333334em;
 
         font-size: 1.5em;
     }
@@ -294,8 +271,7 @@ li:last-child:after {
     }
 }
 
-@media (min-width: 992px) {
-    /*<--------------------------993*/
+@media (min-width: 993px) {
     .header-navigation {
         width: 100%;
     }
@@ -303,8 +279,6 @@ li:last-child:after {
     .header-navigation ul {
         display: flex;
         justify-content: space-between;
-
-        width: 100%;
     }
 
     .header-navigation li::after {
@@ -340,26 +314,18 @@ li:last-child:after {
         padding: 1.25em 0 0 1.25em;
     }
 
-    .articles-section {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-    }
-
     .article {
         width: 31%;
     }
+
 }
 
 @media (min-width: 1200px) {
     .container {
         flex-direction: row;
-        margin: 1.25em;
     }
 
     .main-header {
-        align-items: center;
         flex-direction: column;
         margin-right: 1.875em;
     }
@@ -376,10 +342,8 @@ li:last-child:after {
     }
 
     .header-navigation {
-        align-items: flex-start;
         height: 25em;
         border: 0.1875em solid black;
-        margin: 0 auto;
     }
 
     .header-navigation ul {
@@ -387,9 +351,6 @@ li:last-child:after {
         padding-top: 1.875em;
     }
 
-    .footer-container {
-        margin: 1.25em;
-    }
 }
 
 @media (min-width: 1440px) {
