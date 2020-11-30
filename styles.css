@@ -95,8 +95,8 @@ main {
     width: 12.5em;
     height: 1.5625em;
     padding-left: 0.625em;
-    margin-right: 0.625em;
     border: 0.1875em solid black;
+    margin-right: 0.625em;
 
     background-color: #D5F8EC;
 
@@ -140,7 +140,6 @@ main {
 
 .article-text {
     padding: 0 0.625em 0.625em;
-
 }
 
 .footer-container {
@@ -152,7 +151,6 @@ main {
     border-top: 0.1875em solid black;
     margin: 0.75em 1.25em;
 }
-
 
 .footer-navigation {
     margin-bottom: 1em;
@@ -304,9 +302,9 @@ li:last-child:after {
     }
 
     .header-navigation .header-navigation__title {
-        margin: 0 1.875em 0 1.875em;
         display: flex;
         align-items: center;
+        margin: 0 1.875em 0 1.875em;
     }
 
     .heading-section {
