@@ -128,6 +128,9 @@ main {
     margin-bottom: 1.25em;
 }
 
+.article:last-child{
+    margin-bottom: 0;
+}
 
 .article-title {
     padding: 0.5em;
@@ -316,6 +319,7 @@ li:last-child:after {
 
     .article {
         width: 31%;
+        margin-bottom: 0;
     }
 
 }
