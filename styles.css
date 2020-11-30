@@ -5,6 +5,8 @@
 }
 
 body, html {
+    min-width: 340px;
+
     background-color: #D5F8EC;
 
     font-family: Roboto, Arial, sans-serif;
@@ -18,7 +20,6 @@ body, html {
 .container {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
     max-width: 1440px;
     margin: 1.25em;
 }
@@ -145,7 +146,6 @@ main {
 .footer-container {
     display: flex;
     flex-direction: column;
-    min-width: 300px;
     max-width: 1440px;
     padding-top: 0.625em;
     border-top: 0.1875em solid black;
@@ -194,7 +194,7 @@ li:last-child:after {
     content: ' \00A9 ';
 }
 
-@media (min-width: 371px) {
+@media (min-width: 375px) {
     .subscribe-btn {
         margin-top: 0;
     }
