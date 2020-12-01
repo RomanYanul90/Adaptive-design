@@ -102,6 +102,7 @@ main {
 }
 
 .subscribe-section__label {
+    white-space: pre;
     margin-bottom: 0.625em;
 }
 
@@ -223,7 +224,6 @@ main {
     }
 
     .subscribe-section__label {
-        min-width: 11.75em;
         margin-right: 0.5em;
         margin-bottom: 0;
 
@@ -314,7 +314,7 @@ main {
     }
 
     .subscribe-form{
-        width: 22.8125em;
+        max-width: 450px;
     }
 
     .article {
