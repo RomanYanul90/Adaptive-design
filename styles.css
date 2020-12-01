@@ -5,22 +5,16 @@
 }
 
 body, html {
-    min-width: 340px;
-
     background-color: #D5F8EC;
 
     font-family: Roboto, Arial, sans-serif;
     font-size: 16px;
 }
 
-.a {
-    cursor: pointer;
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    max-width: 1200px;
     margin: 1.25em;
 }
 
@@ -39,7 +33,22 @@ body, html {
     display: inline;
 }
 
-.header-navigation .header-navigation__icon {
+.header-navigation li:after, .footer-navigation li:after {
+    display: inline-block;
+    content: '';
+    width: 0.125em;
+    height: 1em;
+    margin-left: 0.1em;
+    margin-bottom: -0.25em;
+
+    background: black;
+}
+
+.header-navigation li:last-child:after,.footer-navigation li:last-child:after{
+    display: none;
+}
+
+.header-navigation__icon {
     display: none;
 }
 
@@ -79,7 +88,6 @@ main {
     left: 50%;
 
     transform: translate(-50%, -50%);
-
 }
 
 .subscribe-section {
@@ -88,12 +96,17 @@ main {
     margin-bottom: 1.25em;
 }
 
+.subscribe-form{
+    display: flex;
+    flex-direction: row;
+}
+
 .subscribe-section__label {
     margin-bottom: 0.625em;
 }
 
 .email-input {
-    width: 12.5em;
+    width: 100%;
     height: 1.5625em;
     padding-left: 0.625em;
     border: 0.1875em solid black;
@@ -109,7 +122,6 @@ main {
     width: 7.5em;
     border: 0.1875em solid black;
     border-radius: 0.4375em;
-    margin-top: 0.625em;
 
     background-color: #EAF8F3;
 
@@ -121,7 +133,6 @@ main {
 .articles-section {
     display: flex;
     flex-direction: column;
-
 }
 
 .article {
@@ -146,7 +157,7 @@ main {
 .footer-container {
     display: flex;
     flex-direction: column;
-    max-width: 1440px;
+    max-width: 1200px;
     padding-top: 0.625em;
     border-top: 0.1875em solid black;
     margin: 0.75em 1.25em;
@@ -166,21 +177,6 @@ main {
     list-style-type: none;
 }
 
-li:after {
-    display: inline-block;
-    content: '';
-    width: 0.125em;
-    height: 1em;
-    margin-left: 0.3125em;
-    margin-bottom: -0.25em;
-
-    background: black;
-}
-
-li:last-child:after {
-    display: none;
-}
-
 .social-networks-navigation {
     display: flex;
     justify-content: flex-end;
@@ -194,13 +190,7 @@ li:last-child:after {
     content: ' \00A9 ';
 }
 
-@media (min-width: 375px) {
-    .subscribe-btn {
-        margin-top: 0;
-    }
-}
-
-@media (min-width: 680px) {
+@media (min-width: 600px) {
     .main-header {
         flex-direction: row;
     }
@@ -219,7 +209,7 @@ li:last-child:after {
     }
 
     .heading-section__title {
-        padding: 0.8333333333333334em 0 0 0.8333333333333334em;
+        padding: 0.8333em 0 0 0.8333em;
 
         font-size: 1.5em;
     }
@@ -230,14 +220,18 @@ li:last-child:after {
 
     .subscribe-section {
         flex-direction: row;
-        justify-content: flex-end;
     }
 
     .subscribe-section__label {
+        min-width: 11.75em;
         margin-right: 0.5em;
         margin-bottom: 0;
 
         font-size: 1.25em;
+    }
+
+    .subscribe-form{
+        width: 100%;
     }
 
     .articles-section {
@@ -251,7 +245,7 @@ li:last-child:after {
     }
 
     .article-title {
-        padding: 0.8333333333333334em;
+        padding: 0.8333em;
 
         font-size: 1.5em;
     }
@@ -272,7 +266,7 @@ li:last-child:after {
     }
 }
 
-@media (min-width: 993px) {
+@media (min-width: 769px) {
     .header-navigation {
         width: 100%;
     }
@@ -286,13 +280,12 @@ li:last-child:after {
         display: none;
     }
 
-    .header-navigation .header-navigation__icon {
+    .header-navigation__icon {
         display: inline-block;
     }
 
     .header-navigation a {
         display: flex;
-        padding: 0.9375em 1.875em;
 
         color: #454547;
 
@@ -301,7 +294,7 @@ li:last-child:after {
         text-decoration: none;
     }
 
-    .header-navigation .header-navigation__title {
+    .header-navigation__title {
         display: flex;
         align-items: center;
         margin: 0 1.875em 0 1.875em;
@@ -315,14 +308,22 @@ li:last-child:after {
         padding: 1.25em 0 0 1.25em;
     }
 
+    .subscribe-section {
+
+        justify-content: flex-end;
+    }
+
+    .subscribe-form{
+        width: 22.8125em;
+    }
+
     .article {
         width: 31%;
         margin-bottom: 0;
     }
-
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 991px) {
     .container {
         flex-direction: row;
     }
@@ -352,10 +353,12 @@ li:last-child:after {
         flex-direction: column;
         padding-top: 1.875em;
     }
-
+    .header-navigation a{
+        padding: 0.9375em 1.875em;
+    }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
     .container {
         margin: 1.25em auto;
     }
