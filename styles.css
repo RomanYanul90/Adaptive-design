@@ -314,7 +314,7 @@ main {
     }
 
     .subscribe-form{
-        max-width: 450px;
+        max-width: 28.125em;
     }
 
     .article {
@@ -353,6 +353,7 @@ main {
         flex-direction: column;
         padding-top: 1.875em;
     }
+
     .header-navigation a{
         padding: 0.9375em 1.875em;
     }
