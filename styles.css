@@ -26,7 +26,7 @@ body, html {
 }
 
 .header-navigation {
-    margin: 0.625em 0;
+    margin-bottom: 0.625em;
 }
 
 .header-navigation li {
@@ -178,6 +178,10 @@ main {
     list-style-type: none;
 }
 
+.copyright{
+    font-size: 0.875em;
+}
+
 .social-networks-navigation {
     display: flex;
     justify-content: flex-end;
@@ -198,6 +202,7 @@ main {
 
     .header-navigation {
         order: 2;
+        margin-bottom: 0;
     }
 
     .logo {
