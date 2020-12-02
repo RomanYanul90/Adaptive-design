@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aad2e285-141c-488d-a401-9d91b7cc98a8" name="Default Changelist" comment="adaptive input">
+    <list default="true" id="aad2e285-141c-488d-a401-9d91b7cc98a8" name="Default Changelist" comment="minor changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +83,7 @@
       <workItem from="1606745916179" duration="17500000" />
       <workItem from="1606810331065" duration="13437000" />
       <workItem from="1606843996579" duration="674000" />
-      <workItem from="1606909741778" duration="1225000" />
+      <workItem from="1606909741778" duration="4691000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1606162029414</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606837964493</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="minor changes">
+      <created>1606911106872</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1606911106872</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +188,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="minor changes" />
     <MESSAGE value="Changed font sizes and paddings" />
     <MESSAGE value="non using styles deleted" />
     <MESSAGE value="article margins deleted" />
@@ -188,17 +195,18 @@
     <MESSAGE value="min-width changed" />
     <MESSAGE value="changed form width and media breakpoints" />
     <MESSAGE value="adaptive input" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptive input" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606813654444">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606813654444" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606837969461">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606911109125">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606837969461" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606911109125" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1606216183329">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
